@@ -1,0 +1,360 @@
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+/* Banner Stylings */
+.full-banner{
+display: flex;
+background: rgba(229, 84, 115, 0.10);
+justify-content:space-between;
+margin-right: 0px;
+width: 1920px;
+height: 850px;
+flex-shrink: 0;
+
+
+}
+.left-contents{
+margin-left: 240px;
+max-width: 500px;}
+
+.welcome-message{
+padding-top: 197px;
+display: flex;
+width: 479px;
+color: #272727;
+font-family: Lato;
+font-size: 30px;
+font-weight: 800;
+margin-bottom: 32px;
+
+}
+.banner-details{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 32px;
+}
+.banner-flower{
+padding-left: 2500;
+margin-right:240px;
+margin-top: 50px;
+/* width: 100%; */
+}
+
+/* button */
+.common-button{
+color: #FFF;
+padding: 20px 43px;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+}
+
+/* Hot deals section */
+.hot-deals{
+max-width: 960px;
+}
+.deals{
+justify-content: space-between;
+display: flex;
+border-radius: 8px;
+background: rgba(250, 20, 31, 0.05);
+width: 1922px;
+height: 620px;
+}
+.deal-slogan{
+padding-top: 230px;
+margin-left: 421px;   
+margin-bottom:24px;
+color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.deal-details{
+margin-left: 395px;
+margin-bottom:32px;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 594px;
+}
+.deals-flower{
+padding-top: 100px;
+padding-right:429px;
+padding-bottom:100px;
+width: 1922px;
+height: 620px;
+}
+/* Instagram-Section */
+.insgram-section{
+
+max-width:1000px;
+}
+.insta-heading{
+margin-top: 128px;
+color: #272727;
+margin-left: 870px;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+
+}
+.insta-para{
+margin-left: 663px;
+text-align: center;
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight:400;
+display: flex;
+width: 594px;
+flex-direction: column;
+}
+
+
+/* Flowers are oriented */
+
+.flower-orientation {
+display: flex;
+justify-content: space-between;
+width: 342px;
+height: 396px;
+gap: 24px;
+padding-left: 240px;
+padding-right: 240px;
+
+} 
+/* Subscription Banner */
+
+.subscribe-banner{
+
+width: 1440px;
+height: 449px; 
+background-image: url(images/rect9.png);
+background-repeat: no-repeat; 
+margin-left: 240px;
+margin-top: 128px;
+border-radius: 8px;
+}
+
+.subscribe-banner-heading{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+padding-top:122px;
+margin-bottom: 16px;
+}
+.subscribe-banner-para{
+
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+
+.email-section{
+display: flex;
+gap: 16px;
+
+}
+.email{
+width: 700px;
+height: 64px;
+border: none;
+border-radius: 8px;
+background: #FFF;;
+margin-top: 48px;
+margin-left: 287px;
+}
+.common-button-2{
+color: #FFF;
+padding: 20px 43px;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+margin-top: 48px;
+width: 150px;
+height: 64px;
+}
+/*footer designs */
+
+.footer{
+width: 1922px;
+height: 449px;
+background: #111010;
+}
+.shop-name{
+color:#E55473;
+text-align: center;
+padding-top:128px;
+}
+.shop-motto{
+display: flex;
+width: 625px;
+padding-left: 648px;
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+.copyright{
+display: flex;
+padding-left:782px;
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+/* Designs For Bonus and extra section */
+.featured-slogan {
+color: #272727;
+padding-left: 281px;
+margin-left: 473px;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.featured-para{
+display: flex;
+width: 594px;
+color: rgba(39, 39, 39, 0.60);
+padding-left: 696px;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.flower-container{
+display: flex;
+justify-content: center;
+gap: 24px;
+width: 1440px;
+height: 538px;
+border:none;
+margin-left: 240px;
+}
+.common-flower1{
+width: 310px;
+height: 428px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+.common-flower2 {
+width: 310px;
+height: 428px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.common-flower3{
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    }
+
+/* alliging the flowers */
+.yellow-flower{
+    object-fit:cover;
+    padding-top: 70px;
+    padding-left: 35px;
+    width: 238px;
+}
+.pink-flower{
+    object-fit:cover;
+    padding-top: 99px;
+    padding-left: 35px;
+    width: 238px;
+}
+.boque{
+    object-fit:cover;
+    padding-top: 99px;
+    padding-left: 15px;
+    width: 238px;
+}
+.boque-caption{
+margin-top:15px;
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+.caption{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+/* not mendatory section */
+.services{
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+width: 1440px;
+height: 320px;
+border: #111010 solid;
+margin-left: 240px;
+margin-top: 128px;
+margin-bottom: 128px;
+}
+.common-images{
+    padding-left: 317px;
+    justify-content: space-around;
+    padding-top:86px;
+}
+.common-captions{
+color: rgba(39, 39, 39, 0.80);
+padding-left: 175px;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+}
+/* Bonus css extra-section */
+.extra-section{
+background-image: url(images/flower.jpg);
+background-repeat:none;
+background-size: cover;
+width: 1440px;
+height: 500px;
+border: #a51212 solid;
+margin-top: 32px;
+margin-left: 232px;
+}
+.form{
+    padding-top: 5px;
+    padding-left: 20px;
+
+}
+.form-text{
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 1000;
+}
